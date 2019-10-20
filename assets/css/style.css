@@ -221,9 +221,9 @@ input[type=submit] {
   /* For desktops: */
 
   /* For testing purposes ONLY */
-  .main-section {
+  /* .main-section {
     color: yellow;
-  }
+  } */
     
     .container {
       max-width: 960px;
@@ -235,8 +235,8 @@ input[type=submit] {
   /* For tablets: */
 
   /* For testing purposes ONLY */
-  .main-section {
-    color: blue;}
+  /* .main-section {
+    color: blue;} */
 
 
     .auth-image {            
@@ -245,9 +245,10 @@ input[type=submit] {
     .container {
       max-width: 700px;
     }
-    .topnav a {
-      float: none;
-      width: 100%;
+
+    nav {       
+      text-align: left;     
+      width: 50%;
     }
   }
 
@@ -256,17 +257,21 @@ input[type=submit] {
   /* For mobile phones: */
 
   /* For testing purposes ONLY */
-  .main-section {
+  /* .main-section {
     color: red;}
-    
+     */
     .auth-image {            
       width: 100%;
     }
     .container {
       max-width: 600px;
     }
-    .topnav a {
-      float: none;
+    #logo {
+      width:100%;
+    }
+    
+    nav {
+      text-align: center;         
       width: 100%;
     }
     
