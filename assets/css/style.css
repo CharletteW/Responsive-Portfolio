@@ -215,3 +215,59 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Adding Media Queries */
+@media only screen and (max-width: 980px) {
+  /* For desktops: */
+
+  /* For testing purposes ONLY */
+  .main-section {
+    color: yellow;
+  }
+    
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+
+  /* For testing purposes ONLY */
+  .main-section {
+    color: blue;}
+
+
+    .auth-image {            
+      width: 75%;
+    } 
+    .container {
+      max-width: 700px;
+    }
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  
+@media only screen and (max-width:640px) {
+  /* For mobile phones: */
+
+  /* For testing purposes ONLY */
+  .main-section {
+    color: red;}
+    
+    .auth-image {            
+      width: 100%;
+    }
+    .container {
+      max-width: 600px;
+    }
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    
+  }
